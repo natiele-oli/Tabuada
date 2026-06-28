@@ -46,3 +46,39 @@ h2{
     border-radius: 3px;
     text-align: center;
 }
+#multplication-form input[type = 'submit']{
+    max-height: 50px;
+    padding: 0.6rem 1.2rem;
+    width: 200px;
+    color: aliceblue;
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#multplication-operations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 2rem 1rem;
+    background-color: rgb(255, 238, 218);
+    color: #333;
+    border-radius: 1rem;
+}
+#multplication-operations .row{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 0.5rem;
+    width: 150px;
+}
+#multplication-operations .row:last-child{
+    border-bottom: 1px solid #ccc;
+}
+#multplication-operations .result{
+    margin-left: 0.4rem;
+}
